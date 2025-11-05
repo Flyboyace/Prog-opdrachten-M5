@@ -1,0 +1,35 @@
+using System.Collections;
+using UnityEngine;
+using TMPro;
+
+public class ShipUI : MonoBehaviour
+{
+    [SerializeField] private TMP_Text introductionField;
+    [SerializeField] private TMP_Text messageField;
+
+    void Start()
+    {
+        StartCoroutine(Introduction());
+    }
+
+    IEnumerator Introduction()
+    {
+        introductionField.enabled = true;
+        introductionField.text = "Welcome to Space 4 8. \nMove with arrows/WASD. \nShoot with SPACE. \nCycle pickups (Left CTRL). \nUse pickups (E).";
+        yield return new WaitForSeconds(5f);
+        introductionField.enabled = false;
+    }
+
+    public void ShowTemporaryMessage(string message)
+    {
+        StartCoroutine(ShowMessageCoroutine(message));
+    }
+
+    private IEnumerator ShowMessageCoroutine(string message)
+    {
+        messageField.enabled = true;
+        messageField.text = message;
+        yield return new WaitForSeconds(3f);
+        messageField.enabled = false;
+    }
+}
