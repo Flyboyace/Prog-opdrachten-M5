@@ -44,4 +44,6 @@ Opdracht 6: SRP
 
 <img width="652" height="284" alt="image" src="https://github.com/user-attachments/assets/5a386309-d04d-41e0-bbcc-c0acddb59775" />
 
-technische uitdaging was de opdracht in het algemeen
+technische uitdaging was er niet echt bij deze opdracht
+
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Laserbehavior
