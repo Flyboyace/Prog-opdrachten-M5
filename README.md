@@ -4,6 +4,7 @@ ik heb er voor gezorgd dat er allemaal verschillende kleuren balletjes spawnen
 
 technische uitdaging was de opdracht in het algemeen
 
+![prog 1](https://github.com/user-attachments/assets/69f45b2d-d946-4b14-9350-c33a85530178)
 
 
 Opdracht 2 Class, Object, Constructor & Instantiate
