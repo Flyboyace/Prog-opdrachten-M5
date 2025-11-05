@@ -36,6 +36,8 @@ technische uitdaging was de opdracht in het algemeen
 
 https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Pickup
 
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Playermovement
+
 Opdracht 6: SRP
 
 <img width="652" height="284" alt="image" src="https://github.com/user-attachments/assets/5a386309-d04d-41e0-bbcc-c0acddb59775" />
