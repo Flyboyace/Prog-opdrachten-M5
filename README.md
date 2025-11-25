@@ -63,5 +63,209 @@ M6
 
 Opdracht 10: Class Diagram van je TD project
 
+---
+Title: Class Diagram Tower Defense
+---
+classDiagram
+
+class BaseHealth {
+    -baseHealth: int
+    -healthBar: Slider
+    +RemoveHealth(health: int)
+    -Checkhealth()
+}
+
+class PlayerHealth {
+    -health: float
+    +Damage(damage: float)
+}
+
+class Currency {
+    -m_CurrencyText: TextMeshProUGUI
+    +Money: int
+    +AddMoney(money: int)
+    +RemoveMoney(money: int)
+}
+
+class enemyHealth {
+    -health: float
+    -moneyAdded: int
+    -healthTxt: TextMeshProUGUI
+    +SetHealth(i: float)
+    +TakeHealth(i: float)
+    -CheckHealth()
+}
+
+class WaypointFollower {
+    -waypoints: List~Transform~
+    +speed: float
+    -waypointHolder: WaypointHolder
+    -currentWaypointIndex: int
+    -initialSpeed: float
+    +slowdownEnemy() IEnumerator
+}
+
+class WaypointHolder {
+    -wayPoints: List~Transform~
+    +GetWaypoints() List~Transform~
+}
+
+class DamagePlayer {
+    -playerHealth: PlayerHealth
+    +DamPlayer()
+}
+
+class WaveManager {
+    +waves: Wave[]
+    +timeBetweenWaves: float
+    +spawner: EnemySpawner
+    +enemiesAlive: int
+    -currentWave: int
+    -countdown: float
+}
+
+class Wave {
+    +count: int
+    +rate: float
+}
+
+class EnemySpawner {
+    -waveManager: WaveManager
+    -enemyPrefab: GameObject
+    +SpawnEnemies(count: int, rate: float) IEnumerator
+}
+
+class waveSystem {
+    -enemyPrefab: Transform
+    -spawnPoint: Transform
+    -spawnRate: float
+    -enemiesPerWave: List~int~
+    -enemyHealthPerWave: List~float~
+    -waveTxt: TextMeshProUGUI
+    -currentWave: int
+    -activeEnemies: List~GameObject~
+    +StartNextWave() IEnumerator
+}
+
+class Tower {
+    -projectilePrefab: GameObject
+    -shootInterval: float
+    -range: float
+    -target: Transform
+    +isPlaced: bool
+    +Start() IEnumerator
+    -FindTarget()
+    -LookAtTarget(target: Transform)
+    -Shoot() IEnumerator
+}
+
+class TowerStatus {
+    +cost: int
+}
+
+class TowerPlacement {
+    -mainCamera: Camera
+    -towerPrefabs: List~GameObject~
+    -currency: Currency
+    -removeTower: RemoveTower
+    -currentTower: GameObject
+    -isPlacingTower: bool
+    +towerAmount: int
+    +TowerButton(towerIndex: int)
+    -StartPlacingTower(towerIndex: int)
+    -FollowMouseWithTower()
+    -PlaceTower()
+}
+
+class RemoveTower {
+    -sellButton: Button
+    +towerList: List~Transform~
+    -currency: Currency
+    -placement: TowerPlacement
+    -SellTowers()
+}
+
+class Projectile {
+    +target: Transform
+    -speed: float
+    -maxRange: float
+    -damage: int
+    -slowdowneffect: bool
+    -startPosition: Vector3
+    +OnTriggerEnter2D(other: Collider2D)
+}
+
+class Shop {
+    -panel: GameObject
+    -shopButton: Transform
+    -lerpShopButton: bool
+    -lerpPos: Vector3
+    -originalPos: Vector3
+    +ShowUi()
+}
+
+class Startbutton {
+    -button: Button
+    -startgame()
+}
+
+class Quitbutton {
+    -button: Button
+    -startgame()
+}
+
+BaseHealth ..> SceneManager
+BaseHealth ..> Slider
+
+PlayerHealth ..> BaseHealth
+
+Currency ..> TextMeshProUGUI
+
+enemyHealth ..> TextMeshProUGUI
+enemyHealth ..> Currency
+
+WaypointFollower ..> WaypointHolder
+WaypointFollower ..> BaseHealth
+
+WaypointHolder ..> Transform
+
+DamagePlayer ..> PlayerHealth
+
+WaveManager ..> EnemySpawner
+WaveManager ..> Wave
+
+EnemySpawner ..> WaveManager
+EnemySpawner ..> GameObject
+
+waveSystem ..> enemyHealth
+waveSystem ..> WaypointFollower
+waveSystem ..> TextMeshProUGUI
+
+Tower ..> Projectile
+Tower ..> GameObject
+
+TowerPlacement ..> Currency
+TowerPlacement ..> RemoveTower
+TowerPlacement ..> Tower
+TowerPlacement ..> TowerStatus
+
+RemoveTower ..> Currency
+RemoveTower ..> TowerPlacement
+
+Projectile ..> enemyHealth
+Projectile ..> WaypointFollower
+
+Shop ..> GameObject
+Shop ..> Transform
+
+Startbutton ..> SceneManager
+Startbutton ..> Button
+
+Quitbutton ..> Application
+Quitbutton ..> Button
+
+WaveManager <--> EnemySpawner
+TowerPlacement <--> RemoveTower
+TowerPlacement <--> Currency
 
 
