@@ -240,7 +240,7 @@ https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Itemstats
 
 https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Itemtemplate
 
-
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Itemtype
 
 Opdracht 4: Score Collection Game
 
