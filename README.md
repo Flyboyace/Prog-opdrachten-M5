@@ -246,6 +246,8 @@ Opdracht 4: Delegates
 
 ![Delegates](https://github.com/user-attachments/assets/049231b4-05da-4592-a50a-70aac8a38138)
 
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Collectible
+
 
 
 
