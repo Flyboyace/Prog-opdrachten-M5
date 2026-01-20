@@ -250,7 +250,7 @@ https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Collectible
 
 https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Playermove
 
-
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Scoremanager
 
 
 Opdracht 7: Early returns
