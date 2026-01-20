@@ -70,6 +70,8 @@ https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Keycard
 
 https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Medipack
 
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Inventory%20system
+
 Opdracht 2: Class Diagram van je TD project
 
 ```mermaid
