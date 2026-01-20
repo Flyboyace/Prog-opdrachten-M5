@@ -1,0 +1,11 @@
+using UnityEngine;
+using System;
+
+public enum ItemType
+{
+    Weapon,
+    Armor,
+    Potion,
+    Consumable,
+    Misc
+}
