@@ -66,7 +66,7 @@ https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Inventory%20item
 
 https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Weapon
 
-
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Keycard
 
 Opdracht 2: Class Diagram van je TD project
 
