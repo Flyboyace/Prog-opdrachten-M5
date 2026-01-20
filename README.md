@@ -246,3 +246,4 @@ Opdracht 4: Delegates
 
 Opdracht 7: Early returns
 
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Early%20returns
