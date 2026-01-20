@@ -61,7 +61,7 @@ https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/ShipUI
 
 M6 
 
-Opdracht 10: Class Diagram van je TD project
+Opdracht 2: Class Diagram van je TD project
 
 ```mermaid
 classDiagram
