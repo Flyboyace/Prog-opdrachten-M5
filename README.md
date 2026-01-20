@@ -248,6 +248,8 @@ Opdracht 4: Delegates
 
 https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Collectible
 
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Playermove
+
 
 
 
