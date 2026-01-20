@@ -244,4 +244,5 @@ https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Itemtype
 
 Opdracht 4: Delegates
 
+Opdracht 7: Early returns
 
