@@ -1,20 +1,16 @@
+using System.Collections.Generic;
 using UnityEngine;
 
-public class InventoryItem: MonoBehaviour
+public abstract class InventoryItem
 {
-    protected string id;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public string Name { get; protected set; }
+    public int Quantity { get; set; }
+
+    public InventoryItem(string name, int quantity = 1)
     {
-        
+        Name = name;
+        Quantity = quantity;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    public void Identify() {
-        Debug.Log(id);
-    }
+    public abstract void Use();
 }

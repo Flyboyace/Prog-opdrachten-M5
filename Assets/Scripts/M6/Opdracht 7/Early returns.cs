@@ -1,4 +1,5 @@
-public bool IsPlayerReadyToAttack(Player player)
+/*
+   public bool IsPlayerReadyToAttack(Player player)
 {
     if (player == null) return false;
     if (!player.IsAlive) return false;
@@ -24,4 +25,4 @@ public bool IsPlayerReadyToAttack(Player player)
     if (!hasManaAndWeapon && !hasHealthAndBuff) return false;
 
     return true;
-}
+}*/
