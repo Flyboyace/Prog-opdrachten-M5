@@ -60,6 +60,7 @@ https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/ShipUI
 
 
 M6 
+Opdracht 1: Code conventions
 
 Opdracht 2: Class Diagram van je TD project
 
@@ -217,6 +218,10 @@ classDiagram
 
 Link naar TD project voor code.
 https://github.com/Flyboyace/BO-tower-defense
+
+Opdracht 3: Data structures
+
+
 
 Opdracht 4: Score Collection Game
 
