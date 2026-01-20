@@ -60,8 +60,19 @@ https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/ShipUI
 
 
 M6 
+Opdracht 1: Code conventions
 
-Opdracht 10: Class Diagram van je TD project
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Inventory%20item
+
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Weapon
+
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Keycard
+
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Medipack
+
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Inventory%20system
+
+Opdracht 2: Class Diagram van je TD project
 
 ```mermaid
 classDiagram
@@ -218,6 +229,35 @@ classDiagram
 Link naar TD project voor code.
 https://github.com/Flyboyace/BO-tower-defense
 
-Opdracht 4: Score Collection Game
+Opdracht 3: Data structures
+![Data structures](https://github.com/user-attachments/assets/103c916a-e9a3-4923-ae16-1df1944e8d41)
 
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Inventory
 
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Item
+
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Itemstats
+
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Itemtemplate
+
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Itemtype
+
+Opdracht 4: Delegates
+
+![Delegates](https://github.com/user-attachments/assets/049231b4-05da-4592-a50a-70aac8a38138)
+
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Collectible
+
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Playermove
+
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Scoremanager
+
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/ScoreUI
+
+Opdracht 5: Abstraction
+
+Opdracht 6: Polymophism
+
+Opdracht 7: Early returns
+
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Early%20returns
