@@ -236,7 +236,7 @@ https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Inventory
 
 https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Item
 
-
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Itemstats
 
 Opdracht 4: Score Collection Game
 
