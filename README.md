@@ -230,6 +230,9 @@ Link naar TD project voor code.
 https://github.com/Flyboyace/BO-tower-defense
 
 Opdracht 3: Data structures
+![Data structures](https://github.com/user-attachments/assets/103c916a-e9a3-4923-ae16-1df1944e8d41)
+
+
 
 
 
