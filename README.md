@@ -68,6 +68,8 @@ https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Weapon
 
 https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Keycard
 
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Medipack
+
 Opdracht 2: Class Diagram van je TD project
 
 ```mermaid
