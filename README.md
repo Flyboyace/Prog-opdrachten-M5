@@ -62,6 +62,10 @@ https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/ShipUI
 M6 
 Opdracht 1: Code conventions
 
+https://github.com/Flyboyace/Prog-opdrachten-M5/blob/main/Inventory%20item
+
+
+
 Opdracht 2: Class Diagram van je TD project
 
 ```mermaid
